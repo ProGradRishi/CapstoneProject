@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul {
+    margin: 20px;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Introduction {
+    background-color: #9b59b6;
+    display: block;
+    width: 1000px;
+    height: 200px;
+    padding: 50px;
+}
+
+#image {
+    /* margin-left: 850px; */
+
+}
+
+#Discover {
+    border: 2px solid white;
+    padding: 5px;
+    color: white;
+    width: 90px;
+}
+
+.feature {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.fa-car {
+    color: #e84118;
+    size: 50px;
+}
+
+.fa-tree {
+    color: #44bd32;
+}
+
+.fa-usd {
+    color: #e1b12c;
+}
+
+.car {
+    background-color: #2ecc71;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car div {
+    text-align: center;
+    margin-left: 250px;
+}
+
+.button2 {
+    margin-right: 250px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.catlog {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#catalog1 {
+    border: 10px solid black;
+    margin: 50px;
+}
+
+#catalog2 {
+    border: 10px solid black;
+    margin: 50px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 25px;
+}
